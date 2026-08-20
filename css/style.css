@@ -98,7 +98,6 @@ h1 img {
 
 .floating_img {
   width: 80%;
-  max-width: 100px;
   cursor: pointer;
   animation: fuwafuwa 6s ease-in-out infinite;
   transform-origin: 30% 50%;
@@ -130,7 +129,7 @@ h1 img {
   position: fixed;
   right: -90px;
   bottom: 180px;
-  width: min(260px, calc(100vw - 32px));
+  width: 90%;
   opacity: 0;
   visibility: hidden;
   transform: translateY(20px) scale(0.9);
